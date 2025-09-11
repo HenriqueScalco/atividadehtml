@@ -63,11 +63,11 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #3498db;
+    color: #2f3133;
 }
 
 .nav-menu a.active {
-    color: #3498db;
+    color: #333638;
     font-weight: bold;
 }
 

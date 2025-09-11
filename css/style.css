@@ -1,6 +1,6 @@
 :root{
-    --cor-principal: #3498db;
-    --cor-secundaria: #2c3e50;
+    --cor-principal: #fb6b3b;
+    --cor-secundaria: #242424;
     --cor-destaque: #e74c3c;
     --fundo-padrao: #f8f9fa;
     --cor-cinza: #333;
@@ -22,9 +22,9 @@ body {
 
 /* Header */
 .header {
-    background: #2c3e50;
+    background: #fb6b3b;
     color: white;
-    padding: 1rem 0;
+    padding: 0.5 rem 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -47,8 +47,20 @@ body {
 
 .logo-img {
     max-height: 50px;
+    border-radius: 50%;
 }
 
+.sobre-img {
+    max-height: 300px;
+    border-radius: 10%; 
+}
+.sobreex-img {
+    max-width: 700px;
+    width:56.5%;
+    height: auto;
+    display: block;
+    border-radius: 10%; 
+}
 .nav-menu {
     display: flex;
     list-style: none;
@@ -62,7 +74,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #3498db;
+    color: #c8d0d6;
 }
 
 .nav-menu a.active {
@@ -86,7 +98,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(90deg, #a94f33 0%, #0f0f0f 100%);
     color: white;
     padding: 8rem 8rem;
     text-align: center;
@@ -99,7 +111,7 @@ body {
 }
 
 .cta-button {
-    background: #e74c3c;
+    background: #363333;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -111,7 +123,7 @@ body {
 }
 
 .cta-button:hover {
-    background: #c0392b;
+    background: #4d4848;
 }
 
 /* Sobre Section */
@@ -180,8 +192,8 @@ body {
 }
 
 .servico-card button {
-    background: #3498db;
-    color: white;
+    background: #2f2f30;
+    color: rgb(252, 252, 252);
     padding: 0.8rem 1.5rem;
     border: none;
     border-radius: 5px;
@@ -190,7 +202,7 @@ body {
 }
 
 .servico-card button:hover {
-    background: #2980b9;
+    background: #626769;
 }
 
 .servico-card.destaque, .sobre-card:focus, .sobre-card:hover{
@@ -199,7 +211,7 @@ body {
 }
 
 .fundo-azul {
-    background-color: #2980b9 !important;
+    background-color: #242424!important;
     color: white;
 
 }
@@ -207,7 +219,7 @@ body {
 /* Contador Section */
 .contador {
     padding: 4rem 2rem;
-    background: #34495e;
+    background: #a94f33;
     color: white;
 }
 
@@ -231,6 +243,7 @@ body {
     font-weight: bold;
     display: block;
 }
+
 
 /* Contato Section */
 .contato {
@@ -261,7 +274,7 @@ body {
 }
 
 .contato-form button {
-    background: #27ae60;
+    background: #3b413d;
     color: white;
     padding: 1rem;
     border: 2px solid #000;
@@ -271,12 +284,12 @@ body {
 }
 
 .contato-form button:hover {
-    background: #219a52;
+    background: #515753;
 }
 
 /* Footer */
 .footer {
-    background: #2c3e50;
+    background: #222324;
     color: white;
     text-align: center;
     padding: 2rem;

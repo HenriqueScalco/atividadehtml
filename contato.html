@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia</title>
+    <link id="stylesheet" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/alisson-cut-símbolo-verde.png" alt="Logo Barbearia" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Espaço maior entre header e conteúdo -->
+    <div style="height: 80px;"></div>
+
+    <!-- Conteúdo -->
+    <main class="conteudo">
+        <h1>Fale Conosco</h1>
+        <p>Entre em contato para agendar seu horário ou tirar dúvidas.</p>
+
+        <div class="contato-info">
+            <p><strong>Endereço:</strong> Rua das Barbas, 123 - Centro - Cabelolândia</p>
+            <p><strong>Telefone:</strong> (99) 99999-9999</p>
+            <p><strong>Email:</strong> contato@barbearia.com</p>
+        </div>
+
+        <h2>Envie sua Mensagem</h2>
+        <form class="contato-form" onsubmit="enviarFormulario(event)">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 - Barbearia</p>
+    </footer>
+</body>
+</html>
